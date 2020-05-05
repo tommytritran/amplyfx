@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/book",
+            "lambdaFunction": "amplyfxa4ba2a3d",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "amplyfxApi",
+    "apiName": "amplyfxApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplyfxa4ba2a3d"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplyfx-dev-82618-authRole",
+        "unAuthRoleName": "amplify-amplyfx-dev-82618-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplyfxa4ba2a3d",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
